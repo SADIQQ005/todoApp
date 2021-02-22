@@ -1,0 +1,16 @@
+{
+  "name": "todoApp",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "start": "node server.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": "https://github.com/SADIQQ005/todoApp.git",
+  "author": "SADIQQ005 <abusadiqq005@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.17.1",
+    "heroku": "^7.48.0"
+  }
+}
