@@ -32,7 +32,7 @@ function addTodo(e) {
       todoDiv.appendChild(newTodo);
       
       //Add to localStorage
-      saveLocalStorage(todoInput.value)
+    //   saveLocalStorage(todoInput.value)
 
     // Check mark button
     const completeButton = document.createElement("button");
@@ -101,14 +101,15 @@ function filterTodo(e) {
 
 // Save to local storage
 
-function saveLocalStorage(todo) {
-  //check for todo in local storage
-  let todos;
-  if (localStorage.getItem("todos") === null) {
-    todos = [];
-  } else {
-    todos = JSON.parse(localStorage.getItem("todos"));
-  }
-  todos.push(todo);
-  localStorage.setItem("todos", JSON.stringify("todos"));
-}
+// function saveLocalStorage(todo) {
+    
+//   //check for todo in local storage
+//   let todos;
+//   if (localStorage.getItem("todos") === null) {
+//     todos = [];
+//   } else {
+//     todos = JSON.parse(localStorage.getItem("todos"));
+//   }
+//   todos.push(todo);
+//   localStorage.setItem("todos", JSON.stringify("todos"));
+// }
